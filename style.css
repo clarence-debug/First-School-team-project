@@ -1,0 +1,227 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+/* home page */
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+   /* height: 45px; */
+    background-color: #04BF7B;
+}
+ul a{
+    text-decoration: none;
+    color: #F2F2F2;
+    font-family: Helvetica;
+    padding: 31px 41px;
+  /*  padding: 14px 26px;*/
+    display: block;
+}
+li a:hover {
+  background-color: #f2f2f2;
+  color:#04BF7B;
+  height: inherit;
+  cursor: pointer;
+}
+header{
+    width: 100%;
+    /* height: 60px; */
+}
+
+ul li{
+    /* display: inline; */
+    float: left;
+    /* padding: 20px; */
+}
+
+
+main{    
+    width: 100%;
+}
+
+#handbook{
+    width:75%;
+    height: 220px;
+   /* height:180px;*/
+    background-color: #8c8c8c;
+    border-radius: 15px;
+    margin: 0  auto;
+    /* margin-top: -20px; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #F2F2F2;
+    font-size: larger;
+    
+}
+
+#handbook p {
+    padding-left: 70px;
+    width: 500px;
+}
+
+#team1{
+   /* display:flex;
+    width: 75%; */
+    width: 600px;
+    margin: auto;
+}
+
+.excel1 h3{
+    color: #D00090;
+    text-align: left;
+}
+
+.excel1 img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* handbook page */
+
+#topic{
+    display:flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.topic1{
+    margin:20px;
+}
+
+.topic1 h3{
+    color: #D00090;
+}
+
+.topicpic{
+   /* height: 200px;
+    width: 400px; */
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.topic1 button{
+    background-color: #D00090;
+    color:#F2F2F2;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width:100px;
+    cursor: pointer;
+}
+
+/**
+ * About us page
+ */
+.member{
+    width: 85%;
+    margin-left: 7%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Helvetica;
+
+}
+
+.member .info{
+    margin-left: 15%;
+    padding: 15px;
+
+    float:left;
+}
+
+.member h3{
+    color: #D00090;
+    margin-bottom: 50px;
+}
+
+.member img{
+    float:right;
+    margin-right: 15%;
+}
+.member:after{    
+    content:"";
+    clear:both;
+    display: block;
+}
+.member ul li{
+    float: none;
+    margin-bottom: 10px;
+}
+
+.member ul li:before{
+    content: "- ";
+}
+
+/**
+ * Contact us page
+ */
+
+#contact{
+    width: 75%;
+    margin: 30px auto;
+    border-radius: 15px;
+    border:1px solid #8c8c8c; 
+    box-shadow: 0 0 5px;/* offset-x | offset-y | blur-radius | color */
+}
+
+.contactForm{    
+    margin: 60px 15%;
+    width: 70%;
+    color: #1B78F2;
+    border-radius: 5px;
+}
+
+.contactForm input, .contactForm textarea{
+    width:99%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #1B78F2;
+    border-radius: 5px;
+}
+.contactForm input{
+    height: 20px;
+}
+
+.contactForm button{
+    background-color: #1B78F2;
+    color:#F2F2F2;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width:150px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.contactForm h3{
+    text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #04BF7B;
+  color: white;
+}
+
+#footerLink {
+    color: white;
+}

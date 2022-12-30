@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Security Handbook</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header id="anchor">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./handbook.html">HandBook</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="handbook">
+            <h2>CARDHOLDER DATA &amp; PCI DSS</h2>
+        </section>
+        <section id="team1">
+            <br>                                                                  
+            <p>Cardholder data is personally identifiable information associated to credit or debit card owner. It includes: primary account number (PAN), cardholder name, expiration date, service code (three or four digit value in the magnetic stripe).</p>
+            <img src="visacard.png" alt="Visa Card" width="450px" style="display: block; margin-left: auto; margin-right: auto;"/> 
+            <p>This data is encoded in the magnetic stripe, card verification code (CVV), personal identification number (PIN). Remember that PIN is a <b>secret numerical password</b> that should be known only to the cardholder.</p>
+              <p>The ultimate aim is to eliminate the risks of card data loss and set up decent protection against hackers and thieves, malware and social engineering threats.
+	          <p>Cardholder data is processed by using the PCI DSS (Payment Card Industry Data Security Standard) recommendations.</p>
+			   <p>Some of which are:  </p>
+       
+	        <ol>
+                <li>Never store card authentication data and ensure it even when the service is outsourced.</li>
+                <li>The less cardholder data stored, the better. Store only the essential data.</li>
+	            <li>When storing data, verify that it is encrypted by using so called robust protocols.</li>
+	            <li>Implement two-factor authentication for administrator accesses, especially if the access is from outside the facilities.</li>
+             </ol>	
+             </section>
+        <br>
+         </main>
+    <footer>
+    <a href="#anchor" id="footerLink">Back to the top</a>
+    <br><br><br>
+    <p>Designed and developed by the Excel Team</p>
+    <p>April 2021</p>
+    </footer>
+</body>
+</html>
